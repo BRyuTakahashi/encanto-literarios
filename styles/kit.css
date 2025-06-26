@@ -1,0 +1,280 @@
+#kit {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  & .text-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-block: 235px 88px;
+
+    & .title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      & img {
+        width: 2rem;
+        height: 2rem;
+      }
+    }
+  }
+
+  & .book-kit {
+    display: flex;
+    align-items: center;
+    height: 1000px;
+
+    & .kit-container {
+      position: relative;
+
+      & .center-book {
+        position: relative;
+        height: 617px;
+        width: 467px;
+        z-index: 3;
+      }
+
+      & .purple-bookmark,
+      & .yellow-bookmark {
+        position: absolute;
+        width: 172px;
+        height: 536px;
+      }
+
+      & .yellow-bookmark {
+        right: -5px;
+        top: 15px;
+        /* transform: rotate(10deg); */
+        z-index: 2;
+      }
+
+      & .purple-bookmark {
+        right: -5px;
+        top: 60px;
+        /* transform: rotate(20deg); */
+      }
+
+      & .pin {
+        position: absolute;
+        left: 50px;
+        top: 350px;
+        width: 222px;
+        height: 254px;
+        z-index: 1;
+      }
+
+      & .pin-arrow {
+        position: absolute;
+        left: 50px;
+        top: 300px;
+        rotate: 5deg;
+      }
+
+      & .pin-text {
+        position: absolute;
+        left: 50px;
+        top: 380px;
+        rotate: -5deg;
+      }
+
+      & .book-arrow {
+        position: absolute;
+        left: 50px;
+        top: 100px;
+        rotate: 10deg;
+      }
+
+      & .book-text {
+        position: absolute;
+        left: 60px;
+        top: 35px;
+        rotate: -5deg;
+      }
+
+      & .bookmark-arrow {
+        position: absolute;
+        bottom: 40px;
+        right: 100px;
+      }
+
+      & .bookmark-text {
+        position: absolute;
+        bottom: 60px;
+        right: 20px;
+        width: max-content;
+        rotate: 15deg;
+      }
+    }
+
+    &:hover {
+      & .pin {
+        animation-name: pin-animation;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+
+      & .yellow-bookmark {
+        animation-name: yellow-bookmark-animation;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+
+      & .purple-bookmark {
+        animation-name: purple-bookmark-animation;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+
+      & .pin-arrow {
+        animation-name: pin-arrow-animation;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+
+      & .pin-text {
+        animation-name: pin-text-animation;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+
+      & .book-arrow {
+        animation-name: book-arrow-animation;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+
+      & .book-text {
+        animation-name: book-text-animation;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+
+      & .bookmark-arrow {
+        animation-name: bookmark-arrow-animation;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+
+      & .bookmark-text {
+        animation-name: bookmark-text-animation;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+    }
+  }
+}
+
+@keyframes pin-animation {
+  95% {
+    left: -150px;
+    top: 460px;
+  }
+
+  100% {
+    left: -140px;
+    top: 450px;
+    rotate: -10deg;
+  }
+}
+
+@keyframes yellow-bookmark-animation {
+  95% {
+    right: -118px;
+    top: -55px;
+  }
+
+  100% {
+    right: -113px;
+    top: -50px;
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes purple-bookmark-animation {
+  95% {
+    right: -220px;
+    top: 55px;
+  }
+
+  100% {
+    right: -215px;
+    top: 50px;
+    transform: rotate(20deg);
+  }
+}
+
+@keyframes pin-arrow-animation {
+  95% {
+    left: -195px;
+    top: 375px;
+  }
+
+  100% {
+    left: -190px;
+    top: 370px;
+  }
+}
+
+@keyframes pin-text-animation {
+  95% {
+    left: -205px;
+    top: 335px;
+  }
+
+  100% {
+    left: -200px;
+    top: 330px;
+  }
+}
+
+@keyframes book-arrow-animation {
+  95% {
+    left: -145px;
+    top: -25px;
+  }
+
+  100% {
+    left: -140px;
+    top: -20px;
+  }
+}
+
+@keyframes book-text-animation {
+  95% {
+    left: -225px;
+    top: -70px;
+  }
+
+  100% {
+    left: -220px;
+    top: -65px;
+  }
+}
+
+@keyframes bookmark-arrow-animation {
+  95% {
+    bottom: -85px;
+    right: -160px;
+  }
+
+  100% {
+    bottom: -80px;
+    right: -160px;
+  }
+}
+
+@keyframes bookmark-text-animation {
+  95% {
+    bottom: -115px;
+    right: -105px;
+  }
+
+  100% {
+    bottom: -110px;
+    right: -100px;
+    rotate: 0deg;
+  }
+}

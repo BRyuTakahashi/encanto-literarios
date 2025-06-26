@@ -1,0 +1,40 @@
+#desc {
+  display: flex;
+  justify-content: center;
+  /* padding-block: 6rem 5rem; */
+  padding-top: 6rem;
+  text-align: center;
+
+  & .content {
+    padding-block: 7.125rem 9.875rem;
+    /* padding-top: 7.125rem; */
+    font: var(--fw-medium) var(--fs-title-sm) / 200% var(--ff-raleway);
+    opacity: 30%;
+    animation-name: descAppear;
+    animation-duration: 3000ms;
+    animation-fill-mode: forwards;
+    animation-timeline: scroll(500px 200px);
+
+    & div {
+      max-width: 75rem;
+      color: var(--text-body);
+
+      & mark {
+        all: unset;
+        font-weight: var(--fw-bold);
+        color: var(--blue-light);
+      }
+    }
+
+    & .icons-container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+@keyframes descAppear {
+  100% {
+    opacity: 100%;
+  }
+}

@@ -1,0 +1,343 @@
+#subscription {
+  background-image: url(/assets/images/pricing-background.png);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 138px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+
+  & div {
+    position: relative;
+
+    & .monthly {
+      position: absolute;
+      z-index: 1;
+      background-color: var(--shape-base);
+      border: 1px solid var(--shape-stroke);
+      padding: 2rem 2rem 1.75rem;
+      width: 288px;
+      height: 416px;
+      border-radius: 1.5rem;
+      right: 0px;
+      top: 0px;
+      transform: rotate(0);
+
+      & .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & .sub-type {
+          color: var(--blue-light);
+          font: var(--fw-bold) var(--fs-title-xs) var(--ff-raleway);
+        }
+      }
+
+      & .payment {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 0.5rem;
+        margin-block: 1.5rem 4.375rem;
+
+        & .month {
+          display: flex;
+          font: var(--fw-bold) var(--fs-title-md) var(--ff-raleway);
+          color: var(--text-title);
+          align-items: end;
+          justify-content: start;
+
+          & .price-month {
+            font-size: var(--fs-title-xs);
+          }
+        }
+
+        & p {
+          font: var(--fw-regular) var(--fs-body-sm) var(--ff-raleway);
+          color: var(--text-label);
+        }
+      }
+
+      & .feature-list {
+        margin-bottom: 1.75rem;
+        & .feature-item {
+          display: flex;
+          align-items: center;
+          font: var(--fw-regular) var(--fs-body-xs) var(--ff-raleway);
+          gap: 0.5rem;
+
+          & img {
+            width: 0.875rem;
+            height: 0.875rem;
+          }
+
+          & + .feature-item {
+            margin-top: 0.75rem;
+          }
+        }
+      }
+
+      & a {
+        font: var(--fw-bold) var(--fs-buttom) var(--ff-raleway);
+        padding: 0.75rem 52px;
+        border-radius: 0.5rem;
+        background-color: var(--blue-dark);
+        transition: background 500ms ease-in-out;
+
+        &:hover {
+          background-color: var(--blue-mid);
+        }
+      }
+
+      &:hover {
+        background-color: var(--shape-hover);
+      }
+    }
+
+    & .semi-annual {
+      z-index: 2;
+      position: relative;
+      background-color: var(--shape-hover);
+      padding: 2rem 2rem 1.75rem;
+      width: 288px;
+      height: 416px;
+      border-radius: 1.5rem;
+
+      & .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & .sub-type {
+          color: var(--pink-light);
+          font: var(--fw-bold) var(--fs-title-xs) var(--ff-raleway);
+        }
+
+        & .semi-annual-only {
+          font: var(--fw-bold) var(--tag) var(--ff-raleway);
+          padding: 9px 20px;
+          background-color: var(--shape-stroke);
+          border-radius: 999px;
+        }
+      }
+
+      & .payment {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 0.5rem;
+        margin-block: 1.5rem 4.375rem;
+
+        & .month {
+          display: flex;
+          font: var(--fw-bold) var(--fs-title-md) var(--ff-raleway);
+          color: var(--text-title);
+          align-items: end;
+          justify-content: start;
+
+          & .price-month {
+            font-size: var(--fs-title-xs);
+          }
+        }
+
+        & p {
+          font: var(--fw-regular) var(--fs-body-sm) var(--ff-raleway);
+          color: var(--text-label);
+        }
+      }
+
+      & .feature-list {
+        margin-bottom: 1.75rem;
+        & .feature-item {
+          display: flex;
+          align-items: center;
+          font: var(--fw-regular) var(--fs-body-xs) var(--ff-raleway);
+          gap: 0.5rem;
+
+          & img {
+            width: 0.875rem;
+            height: 0.875rem;
+          }
+
+          & + .feature-item {
+            margin-top: 0.75rem;
+          }
+        }
+      }
+
+      & a {
+        font: var(--fw-bold) var(--fs-buttom) var(--ff-raleway);
+        padding: 0.75rem 52px;
+        border-radius: 0.5rem;
+        background-color: var(--pink-dark);
+        transition: background 500ms ease-in-out;
+
+        &:hover {
+          background-color: var(--pink-base);
+        }
+      }
+
+      &:hover {
+      }
+    }
+
+    & .annualy {
+      z-index: 1;
+      position: absolute;
+      background-color: var(--shape-base);
+      border: 1px solid var(--shape-stroke);
+      padding: 2rem 2rem 1.75rem;
+      width: 288px;
+      height: 416px;
+      border-radius: 1.5rem;
+      left: 0px;
+      top: 0px;
+      transform: rotate(0deg);
+
+      & .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        & .sub-type {
+          color: var(--blue-light);
+          font: var(--fw-bold) var(--fs-title-xs) var(--ff-raleway);
+        }
+      }
+
+      & .payment {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 0.5rem;
+        margin-block: 1.5rem 4.375rem;
+
+        & .month {
+          display: flex;
+          font: var(--fw-bold) var(--fs-title-md) var(--ff-raleway);
+          color: var(--text-title);
+          align-items: end;
+          justify-content: start;
+
+          & .price-month {
+            font-size: var(--fs-title-xs);
+          }
+        }
+
+        & p {
+          font: var(--fw-regular) var(--fs-body-sm) var(--ff-raleway);
+          color: var(--text-label);
+        }
+      }
+
+      & .feature-list {
+        margin-bottom: 1.75rem;
+        & .feature-item {
+          display: flex;
+          align-items: center;
+          font: var(--fw-regular) var(--fs-body-xs) var(--ff-raleway);
+          gap: 0.5rem;
+
+          & img {
+            width: 0.875rem;
+            height: 0.875rem;
+          }
+
+          & + .feature-item {
+            margin-top: 0.75rem;
+          }
+        }
+      }
+
+      & a {
+        font: var(--fw-bold) var(--fs-buttom) var(--ff-raleway);
+        padding: 0.75rem 52px;
+        border-radius: 0.5rem;
+        background-color: var(--blue-dark);
+        transition: background 500ms ease-in-out;
+
+        &:hover {
+          background-color: var(--blue-mid);
+        }
+      }
+
+      &:hover {
+        background-color: var(--shape-hover);
+      }
+    }
+  }
+
+  &:hover {
+    & .monthly {
+      animation-name: monthly-sub;
+      animation-duration: 0.7s;
+      animation-fill-mode: forwards;
+    }
+
+    & .annualy {
+      animation-name: annualy-sub;
+      animation-duration: 0.7s;
+      animation-fill-mode: forwards;
+    }
+  }
+}
+
+@keyframes monthly-sub {
+  60% {
+    right: 290px;
+    top: 70px;
+  }
+
+  70% {
+    right: 270px;
+    top: 50px;
+  }
+
+  80% {
+    right: 285px;
+    top: 65px;
+  }
+
+  90% {
+    right: 275px;
+    top: 55px;
+  }
+
+  100% {
+    right: 280px;
+    top: 60px;
+    transform: rotate(-10deg);
+  }
+}
+
+@keyframes annualy-sub {
+  60% {
+    left: 290px;
+    top: 70px;
+  }
+
+  70% {
+    left: 270px;
+    top: 50px;
+  }
+
+  80% {
+    left: 285px;
+    top: 65px;
+  }
+
+  90% {
+    left: 275px;
+    top: 55px;
+  }
+
+  100% {
+    left: 280px;
+    top: 60px;
+    transform: rotate(10deg);
+  }
+}
