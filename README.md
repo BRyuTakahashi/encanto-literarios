@@ -12,12 +12,12 @@ Este projeto é uma landing page para um clube de assinatura de livros, com foco
 
 <h2>🖥️ Demonstração</h2>
 
-<h3>🔗Acesse o site aqui (Only on desktop ⚠️)</h3> <br>
+<h3>🔗Acesse o site aqui (Only on desktop ⚠️)</h3>
 https://encanto-literarios.vercel.app/
 
 
 
-📸 **Screenshots**:
+<h3>📸 **Screenshots**:</h3
 | Desktop | Mobile |
 |--------|--------|
 | ![](./assets/desktop-preview.png) | ![](./assets/mobile-preview.png) |
