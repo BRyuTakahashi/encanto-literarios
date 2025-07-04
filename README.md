@@ -2,9 +2,6 @@
 
 <h2>Uma LP de um plano de assinaturas de livros</h2>
 
-![Badge de status opcional](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-
 ---
 
 <h2>🎯 Objetivo</h2>
