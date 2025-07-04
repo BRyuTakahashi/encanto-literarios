@@ -2,6 +2,8 @@
 
 <h2>Uma LP de um plano de assinaturas de livros</h2>
 
+---
+
 <h2>🎯 Objetivo</h2>
 
 Este projeto é uma landing page para um clube de assinatura de livros, com foco em design responsivo, UX suave e formulário de contato funcional.
