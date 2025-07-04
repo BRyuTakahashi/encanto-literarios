@@ -1,18 +1,18 @@
-<h1>Encantos Literátios</h1>
+#Encantos Literátios
 
-<h2>Uma LP de um plano de assinaturas de livros</h2>
+##Uma LP de um plano de assinaturas de livros
 
 ---
 
-<h2>🎯 Objetivo</h2>
+##🎯 Objetivo
 
 Este projeto é uma landing page para um clube de assinatura de livros, com foco em design responsivo, UX suave e formulário de contato funcional.
 
 ---
 
-<h2>🖥️ Demonstração</h2>
+##🖥️ Demonstração
 
-<h3>🔗Acesse o site aqui (Only on desktop ⚠️)</h3>
+###🔗Acesse o site aqui (Only on desktop⚠️)
 https://encanto-literarios.vercel.app/
 
 
@@ -24,13 +24,13 @@ https://encanto-literarios.vercel.app/
 
 ---
 
-<h2>🚀 Tecnologias utilizadas</h2>
+##🚀 Tecnologias utilizadas
 
 - HTML5
 - CSS3
 
   
-<h2>⚙️ Funcionalidades</h2>
+##⚙️ Funcionalidades
 
 - [x] Layout responsivo
 - [x] Formulário de contato com validação
