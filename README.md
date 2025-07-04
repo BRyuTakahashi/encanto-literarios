@@ -17,7 +17,7 @@ https://encanto-literarios.vercel.app/
 
 
 
-<h3>📸 Screenshots:</h3>
+📸 **Screenshots**:
 | Desktop | Mobile |
 |--------|--------|
 | ![](./assets/desktop-preview.png) | ![](./assets/mobile-preview.png) |
