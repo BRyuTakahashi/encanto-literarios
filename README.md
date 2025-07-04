@@ -1,6 +1,6 @@
 # Encantos Literátios
 
-## Uma LP de um plano de assinaturas de livros
+**Uma LP de um plano de assinaturas de livros**
 
 ---
 
