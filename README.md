@@ -4,6 +4,12 @@
 
 ---
 
+## 🖥️ Demonstração Visual
+
+<img src="https://photos.google.com/photo/AF1QipOq_IJKw8XyC0vozEVZDEpiJTs4FBFLqeHsOGSO" alt="Início da página do Encantos Literários" width="500">
+
+---
+
 ## 🎯 Objetivo
 
 Este projeto é uma landing page para um clube de assinatura de livros, com foco em design responsivo, UX suave e formulário de contato funcional.
