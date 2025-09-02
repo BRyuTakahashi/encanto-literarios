@@ -1,32 +1,12 @@
 # Encantos Literátios
 
-**Uma LP de um plano de assinaturas de livros**
+**Este projeto é uma landing page para um clube de assinatura de livros, com foco em design responsivo, UX suave e formulário de contato funcional.**
 
 ---
 
-## 🖥️ Demonstração Visual
+## 📸 Demonstração Visual
 
-<img src="https://photos.google.com/photo/AF1QipOq_IJKw8XyC0vozEVZDEpiJTs4FBFLqeHsOGSO" alt="Início da página do Encantos Literários" width="500">
-
----
-
-## 🎯 Objetivo
-
-Este projeto é uma landing page para um clube de assinatura de livros, com foco em design responsivo, UX suave e formulário de contato funcional.
-
----
-
-## 🖥️ Demonstração
-
-### 🔗Acesse o site aqui (Only on desktop⚠️)
-https://encanto-literarios.vercel.app/
-
-
-
-<br>📸 **Screenshots**:
-| Desktop | Mobile |
-|--------|--------|
-| ![](./assets/desktop-preview.png) | ![](./assets/mobile-preview.png) |
+![Início da página do Encantos Literários](https://github.com/BRyuTakahashi/encanto-literarios/blob/main/assets/screenshots/Captura%20de%20tela%202025-06-22%20231449.png)
 
 ---
 
@@ -35,23 +15,31 @@ https://encanto-literarios.vercel.app/
 - HTML5
 - CSS3
 
-  
-## ⚙️ Funcionalidades
+---
 
-- [x] Layout responsivo
-- [x] Formulário de contato com validação
-- [x] Scroll suave entre seções
-- [ ] Integração com backend (em breve)
+### ✨ Funcionalidades
+
+* CSS Animations
 
 ---
+
+## 🖥️ Demonstração
+
+### 🔗Acesse o site aqui (Only on desktop⚠️)
+https://encanto-literarios.vercel.app/
 
 ## 🛠️ Como rodar localmente
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-projeto.git
+git clone https://github.com/BRyuTakahashi/encanto-literarios
 
 # Acesse a pasta
-cd nome-do-projeto
+cd encanto-literarios
 
 # Abra no navegador (recomendo usar Live Server do VSCode)
+
+```
+
+### Autor
+Feito com 💙 por [Bruno Ryu](https://github.com/BRyuTakahashi)
